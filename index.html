@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UptoData — Modern Websites for Small Business</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#" class="nav__logo">
+        <span class="logo-up">up</span><span class="logo-to">to</span><span class="logo-data">data</span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#how">How It Works</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <a href="#pricing" class="btn btn--nav">Get Started</a>
+      <button class="nav__burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile" id="mobileMenu">
+      <a href="#services">Services</a>
+      <a href="#how">How It Works</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <a href="#pricing" class="btn btn--nav">Get Started</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg">
+      <div class="grid-lines"></div>
+      <div class="orb orb--1"></div>
+      <div class="orb orb--2"></div>
+    </div>
+    <div class="hero__content">
+      <div class="hero__badge reveal">
+        <span class="badge-dot"></span> Complete online presence — one monthly fee
+      </div>
+      <h1 class="hero__headline reveal">
+        Your business deserves<br />
+        <span class="text-accent">a website that works</span><br />
+        as hard as you do.
+      </h1>
+      <p class="hero__sub reveal">
+        UptoData builds modern, customer-winning websites for small businesses —
+        with hosting, your domain, and a built-in AI chatbot included.
+        No tech headaches. No hidden costs.
+      </p>
+      <div class="hero__cta reveal">
+        <a href="#pricing" class="btn btn--primary">See Our Plans</a>
+        <a href="#how" class="btn btn--ghost">How it works →</a>
+      </div>
+      <div class="hero__trust reveal">
+        <span>Trusted by independent businesses in:</span>
+        <div class="trust-tags">
+          <span>Retail</span><span>Trades</span><span>Hospitality</span>
+          <span>Health &amp; Beauty</span><span>Professional Services</span><span>And more</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__mockup reveal">
+      <div class="browser-frame">
+        <div class="browser-bar">
+          <span class="dot red"></span>
+          <span class="dot amber"></span>
+          <span class="dot green"></span>
+          <div class="browser-url">yourbuisness.co.uk</div>
+        </div>
+        <div class="browser-body">
+          <div class="mock-hero-img"></div>
+          <div class="mock-nav">
+            <div class="mock-logo-bar"></div>
+            <div class="mock-nav-links">
+              <div></div><div></div><div></div>
+            </div>
+          </div>
+          <div class="mock-content">
+            <div class="mock-h1"></div>
+            <div class="mock-h1 short"></div>
+            <div class="mock-p"></div>
+            <div class="mock-p med"></div>
+            <div class="mock-btn"></div>
+          </div>
+          <div class="mock-chat">
+            <div class="mock-chat-bubble">
+              <span>Hi! How can I help you today?</span>
+            </div>
+            <div class="mock-chat-icon">💬</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROBLEM / STATS -->
+  <section class="stats">
+    <div class="container">
+      <p class="stats__eyebrow reveal">The reality for small businesses today</p>
+      <div class="stats__grid">
+        <div class="stat-card reveal">
+          <div class="stat-number">72<span>%</span></div>
+          <p>of customers check a business online before visiting or buying</p>
+        </div>
+        <div class="stat-card reveal">
+          <div class="stat-number">3<span>s</span></div>
+          <p>is all it takes for a visitor to leave if your site looks outdated or loads slowly</p>
+        </div>
+        <div class="stat-card reveal">
+          <div class="stat-number">£0</div>
+          <p>spent on a website = lost customers going to your competitors instead</p>
+        </div>
+      </div>
+      <p class="stats__footer reveal">UptoData puts you ahead — quickly, affordably, professionally.</p>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Everything included</span>
+        <h2>One subscription.<br />Every tool you need online.</h2>
+      </div>
+      <div class="services__grid">
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="4" y="8" width="40" height="28" rx="3" stroke="currentColor" stroke-width="2.5"/><path d="M16 44h16M24 36v8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M4 28h40" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>Professional Web Design</h3>
+          <p>A fully custom, mobile-first website built around your brand, your customers and your goals. Not a template — yours.</p>
+          <ul class="service-features">
+            <li>Bespoke design, built for your industry</li>
+            <li>Fast-loading &amp; mobile-optimised</li>
+            <li>SEO-ready from day one</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2.5"/><path d="M6 24h36M24 6c-4 5-6 11-6 18s2 13 6 18M24 6c4 5 6 11 6 18s-2 13-6 18" stroke="currentColor" stroke-width="2.5"/></svg>
+          </div>
+          <h3>Domain Acquisition</h3>
+          <p>We register and manage your ideal domain name — or transfer your existing one. Your address on the web, sorted.</p>
+          <ul class="service-features">
+            <li>We find the best available name</li>
+            <li>Full domain management handled</li>
+            <li>Professional branded email addresses</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M8 14l16-8 16 8v12c0 8-7 15-16 18C15 41 8 34 8 26V14z" stroke="currentColor" stroke-width="2.5"/><path d="M18 24l4 4 8-8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Hosting &amp; Deployment</h3>
+          <p>Fast, reliable hosting with 99.9% uptime. We deploy and maintain your site — no server knowledge required.</p>
+          <ul class="service-features">
+            <li>Managed cloud hosting included</li>
+            <li>SSL certificate (secure padlock)</li>
+            <li>Regular backups &amp; updates</li>
+          </ul>
+        </div>
+
+        <div class="service-card reveal service-card--featured">
+          <div class="featured-label">Most loved feature</div>
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M8 32V20a4 4 0 014-4h24a4 4 0 014 4v12a4 4 0 01-4 4H28l-8 6v-6H12a4 4 0 01-4-4z" stroke="currentColor" stroke-width="2.5"/><circle cx="16" cy="26" r="2" fill="currentColor"/><circle cx="24" cy="26" r="2" fill="currentColor"/><circle cx="32" cy="26" r="2" fill="currentColor"/></svg>
+          </div>
+          <h3>AI Chatbot for Your Site</h3>
+          <p>A smart, conversational chatbot trained on <em>your</em> business answers customer questions 24/7 — even while you sleep.</p>
+          <ul class="service-features">
+            <li>Answers FAQs automatically</li>
+            <li>Captures leads &amp; enquiries</li>
+            <li>Customised to your brand tone</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how" id="how">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Simple process</span>
+        <h2>Up and running in<br />as little as 2 weeks</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3>Tell us about your business</h3>
+            <p>A quick discovery call — we learn what you do, who your customers are, and what you want your website to achieve.</p>
+          </div>
+        </div>
+        <div class="step-connector reveal"></div>
+        <div class="step reveal">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h3>We design &amp; build everything</h3>
+            <p>Our team creates your website, sets up hosting, registers your domain and configures your AI chatbot. You approve the design.</p>
+          </div>
+        </div>
+        <div class="step-connector reveal"></div>
+        <div class="step reveal">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h3>Go live &amp; grow</h3>
+            <p>Your new site launches. Customers find you, get answers from your chatbot, and enquiries start coming in — automatically.</p>
+          </div>
+        </div>
+        <div class="step-connector reveal"></div>
+        <div class="step reveal">
+          <div class="step-number">04</div>
+          <div class="step-content">
+            <h3>We handle everything ongoing</h3>
+            <p>Hosting, security, updates — all managed. You run your business. We keep your online presence performing.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Simple, honest pricing</span>
+        <h2>One plan. Everything included.<br />No surprises.</h2>
+        <p class="section-sub">No setup fees hidden in the small print. No "add-ons" that double the price. Just one clear monthly subscription.</p>
+      </div>
+
+      <div class="pricing__cards reveal">
+
+        <div class="price-card">
+          <div class="price-card__label">Starter</div>
+          <div class="price-card__amount">£<span class="price-big">49</span><span class="price-period">/mo</span></div>
+          <p class="price-card__desc">Perfect for brand-new online presences — everything you need to get found.</p>
+          <ul class="price-features">
+            <li><span class="check">✓</span> 5-page professional website</li>
+            <li><span class="check">✓</span> Domain registration &amp; management</li>
+            <li><span class="check">✓</span> Managed hosting &amp; SSL</li>
+            <li><span class="check">✓</span> AI chatbot (standard)</li>
+            <li><span class="check">✓</span> Mobile-optimised design</li>
+            <li><span class="check">✓</span> Monthly performance report</li>
+          </ul>
+          <a href="#contact" class="btn btn--ghost price-btn">Get Started</a>
+        </div>
+
+        <div class="price-card price-card--highlight">
+          <div class="price-card__popular">Most Popular</div>
+          <div class="price-card__label">Growth</div>
+          <div class="price-card__amount">£<span class="price-big">89</span><span class="price-period">/mo</span></div>
+          <p class="price-card__desc">For businesses ready to turn their website into a genuine growth engine.</p>
+          <ul class="price-features">
+            <li><span class="check">✓</span> Up to 15 pages</li>
+            <li><span class="check">✓</span> Domain + branded email</li>
+            <li><span class="check">✓</span> Priority hosting &amp; SSL</li>
+            <li><span class="check">✓</span> Advanced AI chatbot with lead capture</li>
+            <li><span class="check">✓</span> Blog / news section</li>
+            <li><span class="check">✓</span> Google Analytics integration</li>
+            <li><span class="check">✓</span> Quarterly design refresh</li>
+            <li><span class="check">✓</span> Priority support</li>
+          </ul>
+          <a href="#contact" class="btn btn--primary price-btn">Get Started</a>
+        </div>
+
+        <div class="price-card">
+          <div class="price-card__label">Pro</div>
+          <div class="price-card__amount">£<span class="price-big">149</span><span class="price-period">/mo</span></div>
+          <p class="price-card__desc">The complete package for businesses who want maximum impact and ongoing evolution.</p>
+          <ul class="price-features">
+            <li><span class="check">✓</span> Unlimited pages</li>
+            <li><span class="check">✓</span> Domain + multiple emails</li>
+            <li><span class="check">✓</span> Premium hosting</li>
+            <li><span class="check">✓</span> Custom AI chatbot (fully trained)</li>
+            <li><span class="check">✓</span> E-commerce / booking integration</li>
+            <li><span class="check">✓</span> Social media feed integration</li>
+            <li><span class="check">✓</span> Monthly content updates</li>
+            <li><span class="check">✓</span> Dedicated account manager</li>
+          </ul>
+          <a href="#contact" class="btn btn--ghost price-btn">Get Started</a>
+        </div>
+
+      </div>
+      <p class="pricing__note reveal">All prices exclude VAT. No long contracts — cancel anytime with 30 days notice.</p>
+    </div>
+  </section>
+
+  <!-- INDUSTRIES -->
+  <section class="industries">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">We work with all types</span>
+        <h2>Whatever your business,<br />we've got you covered.</h2>
+      </div>
+      <div class="industry-grid reveal">
+        <div class="industry-item"> Plumbers &amp; Builders</div>
+        <div class="industry-item"> Salons &amp; Barbers</div>
+        <div class="industry-item"> Cafés &amp; Restaurants</div>
+        <div class="industry-item"> Retail &amp; Boutiques</div>
+        <div class="industry-item"> Solicitors &amp; Accountants</div>
+        <div class="industry-item"> Fitness &amp; Wellbeing</div>
+        <div class="industry-item"> Estate Agents</div>
+        <div class="industry-item"> Creatives &amp; Freelancers</div>
+        <div class="industry-item"> Garages &amp; Auto</div>
+        <div class="industry-item"> Pet Services</div>
+        <div class="industry-item"> Childcare &amp; Tutoring</div>
+        <div class="industry-item"> Local Delivery &amp; Logistics</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="eyebrow">Got questions?</span>
+        <h2>Straight answers.</h2>
+      </div>
+      <div class="faq__list">
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            I'm not technical at all — is this really for me?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Absolutely. UptoData handles every technical aspect — from design to launch and beyond. You'll never need to touch a line of code or log into a server. If you can describe your business, we can build your website.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            What if I already have a domain name?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>No problem — we'll transfer it over and manage it for you. If you don't have one yet, we'll find the best available name for your business and register it as part of your subscription.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            How does the AI chatbot actually work?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>We train the chatbot on information about your business — your services, opening hours, prices, FAQs, location and more. It sits on your website and answers customer questions in real time, 24 hours a day. You can update the information at any time and we'll retrain it for you.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            How long does it take to build my website?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Most websites are live within 10–14 days of your discovery call. Larger or more complex sites (e-commerce, booking systems) may take a little longer. We'll give you a clear timeline before we start.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            Am I locked into a contract?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>No long-term contracts. All our plans are rolling monthly subscriptions. If you ever need to cancel, just give us 30 days notice. We believe our service should earn your loyalty every month, not trap you.</p>
+          </div>
+        </div>
+
+        <div class="faq-item reveal">
+          <button class="faq-q" aria-expanded="false">
+            What happens if I need to change something on my site?
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-a">
+            <p>Simply get in touch and we'll make the update for you. Small changes (text, photos, opening hours) are included. Larger redesigns or new sections are covered on Growth and Pro plans, or available as a one-off on Starter.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section class="cta-banner" id="contact">
+    <div class="cta-banner__bg">
+      <div class="orb orb--cta1"></div>
+      <div class="orb orb--cta2"></div>
+    </div>
+    <div class="container">
+      <div class="cta-banner__content reveal">
+        <h2>Ready to bring your business<br />up to date?</h2>
+        <p>Book a free, no-obligation discovery call. We'll talk through what you need and show you exactly what UptoData can do for you.</p>
+        <a href="mailto:hello@uptodata.co.uk" class="btn btn--primary btn--large">Book Your Free Call</a>
+        <p class="cta-small">Or email us at <a href="mailto:hello@uptodata.co.uk">hello@uptodata.co.uk</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#" class="nav__logo">
+            <span class="logo-up">up</span><span class="logo-to">to</span><span class="logo-data">data</span>
+          </a>
+          <p>Modern websites for small businesses. Professional. Affordable. Complete.</p>
+        </div>
+        <div class="footer__links">
+          <div class="footer__col">
+            <h4>Services</h4>
+            <a href="#services">Web Design</a>
+            <a href="#services">Hosting</a>
+            <a href="#services">Domains</a>
+            <a href="#services">AI Chatbot</a>
+          </div>
+          <div class="footer__col">
+            <h4>Company</h4>
+            <a href="#">About Us</a>
+            <a href="#how">How It Works</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#faq">FAQ</a>
+          </div>
+          <div class="footer__col">
+            <h4>Contact</h4>
+            <a href="mailto:hello@uptodata.co.uk">hello@uptodata.co.uk</a>
+            <a href="#">Book a Call</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2025 UptoData Ltd. All rights reserved.</p>
+        <div class="footer__legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
